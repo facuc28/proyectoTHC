@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="thcode:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="thcode.war">
+      <element id="artifact" artifact-name="thcode:war exploded" />
+    </root>
+  </artifact>
+</component>

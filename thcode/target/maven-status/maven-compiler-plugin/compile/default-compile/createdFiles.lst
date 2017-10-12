@@ -1,0 +1,17 @@
+com\thcode\apirest\dominio\framework\ErrorFormulario.class
+com\thcode\apirest\dominio\Pago.class
+com\thcode\apirest\dominio\Contrato.class
+com\thcode\apirest\controladores\ClienteControlador.class
+com\thcode\apirest\dominio\framework\Solicitud.class
+com\thcode\apirest\dominio\Cliente.class
+com\thcode\apirest\dominio\Propiedad.class
+com\thcode\apirest\dominio\framework\ErrorDeCampo.class
+com\thcode\apirest\repositorios\ClienteRepositorio.class
+com\thcode\apirest\mappers\ClienteMapper.class
+com\thcode\apirest\dominio\framework\Respuesta.class
+com\thcode\apirest\dominio\Empleado.class
+com\thcode\apirest\dominio\framework\Notificacion.class
+com\thcode\apirest\dominio\Persona.class
+com\thcode\apirest\dominio\Contratista.class
+com\thcode\apirest\dominio\PersonaInt.class
+com\thcode\apirest\dominio\framework\PersonaAbstracta.class

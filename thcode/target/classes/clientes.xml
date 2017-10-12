@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxrs-client="http://cxf.apache.org/jaxrs-client"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://cxf.apache.org/jaxrs-client http://cxf.apache.org/schemas/jaxrs-client.xsd">
+
+
+
+    <jaxrs-client:client id="countryWService"
+    serviceClass="com.thcode.java.service.CountryWService"
+    address="http://services.groupkt.com"
+    inheritHeaders="true">
+    <jaxrs-client:providers>
+    <bean class="org.codehaus.jackson.jaxrs.JacksonJsonProvider"/>
+    </jaxrs-client:providers>
+    <jaxrs-client:headers>
+    <entry key="Accept" value="application/json"/>
+    </jaxrs-client:headers>
+    </jaxrs-client:client>
+
+
+    <jaxrs-client:client id="weatherWService"
+    serviceClass="com.thcode.java.service.WeatherWService"
+    address="https://query.yahooapis.com"
+    inheritHeaders="true">
+    <jaxrs-client:providers>
+    <bean class="org.codehaus.jackson.jaxrs.JacksonJsonProvider"/>
+    </jaxrs-client:providers>
+    <jaxrs-client:headers>
+    <entry key="Accept" value="application/json"/>
+    </jaxrs-client:headers>
+    </jaxrs-client:client>
+
+</beans>
